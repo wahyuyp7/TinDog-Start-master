@@ -1,0 +1,188 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+
+#title {
+    background-color: #ff4c68;
+}
+
+#title > .container-fluid {
+    padding: 3% 15% 7%;
+}
+
+.col-lg-6 > h1 {
+    font-weight: 900;
+    font-size: 3.5rem;
+    line-height: 1.5;
+    color: white;
+}
+
+/* Navigator Bar */
+
+.container-fluid > .navbar {
+    padding: 0 0 4.5rem;
+}
+
+nav > .navbar-brand {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.nav-item > .nav-link {
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+/* Download Button */
+
+.download-button {
+    margin: 5% 3% 5% 0;
+}
+
+/* Title Image */
+
+.title-image {
+    width: 20%;
+    transform: rotate(25deg);
+    position: absolute;
+    right: 30%;
+}
+
+/* Features Section */
+
+#features {
+    padding: 7% 15%;
+    background-color: #fff;
+    position: relative;
+}
+
+.feature-box {
+    text-align: center;
+    padding: 5%;
+}
+
+.feature-box > h3 {
+    font-weight: bold;
+}
+
+.feature-box > p {
+    color: #8f8f8f;
+    padding: 10%;
+}
+
+.feature-box>i {
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+
+.feature-box > i:hover {
+    color: #ff4c68;
+}
+
+#testimonials {
+    text-align: center;
+    background-color: #ef8172;
+    color: #fff;
+}
+
+.carousel-item {
+    padding: 7% 15%;
+}
+
+.carousel-item > h2 {
+    font-weight: bold;
+    font-size: 3rem;
+}
+
+.carousel-item > .testimonial-image {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+#press {
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+#press > img {
+    width: 15%;
+    padding: 20px 20px 50px;
+}
+
+#pricing {
+    padding: 100px;
+    text-align: center;
+}
+
+.pricing-column {
+    padding: 3% 2%;
+}
+
+#pricing > h2 {
+    font-weight: bold;
+    font-size: 3rem;
+}
+
+.card-header > h3 {
+    font-weight: bold;
+}
+
+.card-body > h2 {
+    font-weight: bold;
+}
+
+#cta {
+    background-color: #ff4c68;
+    color: white;
+    text-align: center;
+    padding: 5% 15%;
+}
+
+#cta > h3 {
+    font-weight: bold;
+    font-size: 3.5rem;
+}
+
+#cta > i {
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+
+#cta > i:hover {
+    color: #ff4c68;
+}
+
+#footer {
+    padding: 5% 0;
+    text-align: center;
+}
+
+#footer > .icon {
+    margin: 1% 0;
+}
+
+#footer > .icon > i {
+    margin-right: 1%;
+}
+
+#footer > p {
+    color: #8f8f8f;
+}
+
+@media (max-width:1028px) {
+    #title {
+        text-align: center;
+    }
+
+    .title-image {
+        position: static;
+        transform: rotate(0);
+    }
+}
